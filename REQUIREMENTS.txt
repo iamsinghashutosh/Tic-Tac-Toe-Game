@@ -1,0 +1,34 @@
+This game requires python3 and tkinter library installed in your system.
+To install python :-
+1) In Ubuntu/Linux systems, type in your terminal:-
+	"sudo apt-get install python3"
+	
+2) In Windows:-
+		First download the executable installer from the official website:-
+   https://www.python.org/downloads/windows/
+Run the Python Installer once downloaded.Select Install Now.
+
+3) In Mac OS:-
+		There are two ways of installing python3 on a mac system:
+* Use the Homebrew package manager. After installing Homebrew install Python 3 by running brew install python3.
+* Download and install the latest stable Python 3 package. Be sure to run the included Install Certificates command from Finder.
+
+	Tkinter is the default GUI library that is already installed along with python files when you install python.But somehow if it isn't , you can install it in following ways:-
+1)For Linux:-
+	Type the command "sudo apt-get install python3-tk" in the terminal. 
+	
+2)For Windows:-
+	Firstly download the Community Edition of ActivePython for Windows and make sure you're downloading a 3.1 or newer version, not a 2.x version.
+After downloading run the installer, and follow along. This will end up with a fresh install of ActivePython, located in, e.g. C:\python32. Go to the Windows command prompt, or the Start Menu's "Run..." command, you should then be able to run a Python shell via:
+% C:\python32\python
+The above step will give you the Python command prompt. From the prompt, enter these two commands:
+>>> import tkinter
+>>> tkinter._test()
+The above step will pop up a small window; the first line at the top of the window should say "This is Tcl/Tk version 8.5"
+
+3)For Mac OS:-
+	Go to https://www.activestate.com/products/activetcl/tcl-tk-modules. Active State provides the community with free downloads.
+	Download the free community edition of ActiveTcl 8.6. You may be prompted to create a free account to download. You’ll just need to provide your email and create a password to continue.
+	Run the installer. You’ll need to unpack the file from the download folder before running it. Just drag and drop the application into the Applications folder. When you’re done, you’ll have an application called “Wish 8.6” inside the Utilities folder of your Applications folder.
+	Launch Wish 8.6. You’ll see 2 windows open. One is titled “Console” and the other is titled “Wish.” You can type commands in “Console.”
+	Type % info patchlevel and press ⏎ Return. You should see something like “8.6.9.” This shows the currently installed version.
